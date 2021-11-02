@@ -1,6 +1,11 @@
 <template>
   <div>
-    <button id="primary">Primary</button>
+    <div style="width: 10%">
+      <button class="primary boutton">Primary</button>
+    </div>
+    <div style="width: 10%">
+      <button class="secondary boutton">Secondary</button>
+    </div>
   </div>
 </template>
 
