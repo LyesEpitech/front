@@ -1,13 +1,11 @@
 <template>
-  <div></div>
+  <div>
+    <button id="primary">Primary</button>
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>
