@@ -1,11 +1,16 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <ComponentPreview /> 
+  </div>
 </template>
 
 <script>
+import ComponentPreview from "./components/ComponentPreview.vue"
 export default {
   name: "App",
-  components: {},
+  components: {
+    ComponentPreview,
+  },
 };
 </script>
 
